@@ -86,3 +86,18 @@ button {
     padding: 20px;
     margin-top: 40px;
 }
+
+#rodape h5 {
+    font-size: larger;
+}
+section p {
+    padding: 20px;
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 15px;
+    font-style: italic;
+    background-color: #b86767bd;
+    border-radius: 10px;
+}

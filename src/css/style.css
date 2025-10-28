@@ -28,6 +28,13 @@ header .menu nav a {
     padding: 8px 12px;
 }
 
+a:hover{
+    font-size: 15px;
+    font-style: italic;
+    background-color: #b86767bd;
+    border-radius: 10px;
+}
+
 header section {
     text-align: center;
     color: #fff;
@@ -74,13 +81,26 @@ main > img {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #c1856d;
-    color: #000;
+    background-color: #e2997b;
+    color: #000000;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     width: 65px;
 }
+
+.botao:hover {
+    font-style: italic;
+    font-size: 15.7px;
+    background-color: #e49e82;
+    color: #1f1a1a;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 67px;
+    height: 20px;
+}
+
 
 .avaliacoes {
     display: flex;
@@ -91,8 +111,8 @@ main > img {
 }
 
 .avaliacao {
-    background-color: #fbf9d1;
-    border-radius: 8px;
+    background-color: #fbf9d1d2;
+    border-radius: 20px;
     width: 280px;
 }
 
@@ -105,15 +125,24 @@ main > img {
 
 .avaliacao p {
     text-align: center;
+    font-weight: bold;
 }
 
 #rodape {
     background-color: #9a3f3f;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     margin-top: 40px;
+    font-size: 18px;
 }
 #rodape h5 {
-    margin-bottom: 10px;
+    font-size: larger;
+}
+section p {
+    padding: 15px;
+    font-weight: bold;
+}
+main h3{
+    padding: 10px;
 }
