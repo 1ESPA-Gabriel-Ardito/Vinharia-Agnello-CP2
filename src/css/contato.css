@@ -63,12 +63,22 @@ label {
 }
 
 input, textarea {
-    width: 100%;
+    width: 150px;
     padding: 5px;
     margin-bottom: 15px;
     border-radius: 5px;
     font-family: Arial;
+    transition: all 2s;
+    border: solid black 1px;
 }
+
+/* input[type=email]:invalid{
+    background-color: #f8797963;
+}
+
+input[type=email]:valid{
+    background-color: #d6f8d863;
+} */
 
 button {
     background-color: #c1856d;
@@ -93,11 +103,4 @@ button {
 section p {
     padding: 20px;
     font-weight: bold;
-}
-
-a:hover{
-    font-size: 15px;
-    font-style: italic;
-    background-color: #b86767bd;
-    border-radius: 10px;
 }

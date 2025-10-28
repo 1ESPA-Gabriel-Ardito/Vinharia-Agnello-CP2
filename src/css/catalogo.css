@@ -72,12 +72,6 @@ section p {
     font-weight: bold;
 }
 
-a:hover{
-    font-size: 15px;
-    font-style: italic;
-    background-color: #b86767bd;
-    border-radius: 10px;
-}
 .teste{
     width: 20px;
     height: 20px;

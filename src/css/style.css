@@ -28,13 +28,6 @@ header .menu nav a {
     padding: 8px 12px;
 }
 
-a:hover{
-    font-size: 15px;
-    font-style: italic;
-    background-color: #b86767bd;
-    border-radius: 10px;
-}
-
 header section {
     text-align: center;
     color: #fff;
@@ -88,19 +81,6 @@ main > img {
     text-align: center;
     width: 65px;
 }
-
-.botao:hover {
-    font-style: italic;
-    font-size: 15.7px;
-    background-color: #e49e82;
-    color: #1f1a1a;
-    text-decoration: none;
-    border-radius: 10px;
-    text-align: center;
-    width: 67px;
-    height: 20px;
-}
-
 
 .avaliacoes {
     display: flex;
