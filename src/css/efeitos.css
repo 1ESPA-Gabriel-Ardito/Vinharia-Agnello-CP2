@@ -1,39 +1,139 @@
-header { 
+
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+header .menu nav a:hover {
+    background-color: #c1856d;  
+    color: #000;                
+    transition: all 0.3s ease;  
+    border-radius: 5px;
+}
+
+header .menu nav a:active {
+    background-color: #702d2d; 
+    color: #fff;               
+    transform: scale(0.95);   
+    transition: all 0.1s ease-in;
+    border-radius: 5px;
+}
+
+.avaliacao:nth-child(2) {
+    background-color: #f3e8c9;  
+}
+
+header {
     position: sticky;
     top: 0;
-}
-
-input:focus, textarea:focus{
-    width: 300px;
-}
-
-input:required{
-    background-color: #fc837f5d;
-}
-
-a:hover{
-    font-size: 15px;
-    font-style: italic;
-    background-color: #b86767bd;
-    border-radius: 10px;
+    z-index: 1000; 
 }
 
 .botao:hover {
-    font-style: italic;
-    font-size: 15.7px;
-    background-color: #e49e82;
-    color: #1f1a1a;
-    text-decoration: none;
-    border-radius: 10px;
-    text-align: center;
-    width: 67px;
-    height: 20px;
+    outline: 3px solid #9a3f3f;   
+    color: #000;
+    transition: 0.1s;
 }
 
-.letraMaior:first-letter {
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+::selection {
+    background-color: #9a3f3f; 
+    color: #fff;              
+}
+
+main img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 10px rgb(53, 17, 17); 
+    transition: all 0.5s ease-in-out; 
+    border-radius: 10px;
+}
+
+main::before {
+    content: "";
+    display: block;
+    height: 8px; 
+    background-color: #9a3f3f; 
+    border-radius: 8px 8px 0 0; 
+    margin-bottom: 20px; 
+}
+
+main::after{
+    content: "";
+    display: block;
+    height: 8px; 
+    background-color: #9a3f3f; 
+    border-radius: 0px 0px 8px 8px; 
+    margin-bottom: 20px; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;      
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;     
+    transform: translateY(0);   
+  }
+}
+
+main img {
+    opacity: 0; 
+    animation: fadeIn 1.2s ease-in-out forwards; 
+}
+
+
+
+/* @keyframes fadeInTable {
+  from {
+    opacity: 0;             
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;              
+    transform: translateY(0);    
+  }
+}*/
+
+input:focus, textarea:focus {
+    border: 2px solid #9a3f3f;      
+    outline: none;                   
+    transition: all 0.3s ease-in-out; 
+}
+
+button:hover {
+    background-color: #9a3f3f; 
+    color: #fff;                
+    transform: scale(1.05);    
+    transition: all 0.3s ease-in-out;
+          
+}
+
+main p::first-letter {
+    font-size: 30px;        
+    color: #9a3f3f;                                            
+    font-family: 'Playfair Display', serif; 
+}
+
+main ul li::first-letter {
+    font-size: 20px;                                                    
+    font-family: 'Playfair Display', serif; 
+}
+
+main ul li:hover {
+    transform: skew(-2deg); 
+    color: #9a3f3f;
+    transition: all 0.3s ease-in-out; 
+}
+
+main tr td:hover {
+    transform: skew(-deg);
+    background-color: #9a3f3f;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.avaliacao:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }

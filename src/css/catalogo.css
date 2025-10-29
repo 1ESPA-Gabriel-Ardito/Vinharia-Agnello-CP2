@@ -1,3 +1,4 @@
+@import url("./efeitos.css");
 * {
     margin: 0;
     padding: 0;
@@ -23,12 +24,14 @@ header .menu nav a {
     color: #fff;
     text-decoration: none;
     padding: 8px 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header section {
     text-align: center;
     color: #fff;
     padding: 20px;
+    font-family: Georgia;
 }
 
 main {
@@ -62,19 +65,5 @@ main img {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-}
-
-#rodape h5 {
-    font-size: larger;
-}
-section p {
-    padding: 20px;
-    font-weight: bold;
-}
-
-.teste{
-    width: 20px;
-    height: 20px;
-    margin-left: 370px;
-    display: flex;
+    font-family: Georgia;
 }
