@@ -101,6 +101,14 @@ A tipografia utilizada é **Arial**, garantindo simplicidade e boa legibilidade.
 
 ---
 
+##  Efeitos Visuais
+Alguns efeitos foram aplicadas via pseudo-classes, pseudo-elementos e animações.
+- Pseudo-Classes como ":hover" foram muito utilizadas principalmente em imagens e na navegação.
+- Pseudo-Elementos foram aplicados em textos como "::first-letter" para ter um foque maior nos textos.
+- Algumas animações foram aplicadaas com os keyframes.
+- Todos os conceitos podem ser visualizados no arquivo "efeitos.css".
+
+---
 ##  Tecnologias Utilizadas
 - **HTML5 semântico**: estrutura de páginas com tags modernas (`header`, `main`, `section`, `footer`, etc.).  
 - **CSS3 customizado**: estilização modular, com arquivos separados para cada página.  
