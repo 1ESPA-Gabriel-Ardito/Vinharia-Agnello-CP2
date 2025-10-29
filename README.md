@@ -1,6 +1,6 @@
-# 🍷 E-commerce Vinheria Agnello – Site Estático (HTML/CSS)
+#  E-commerce Vinheria Agnello – Site Estático (HTML/CSS)
 
-## 📖 Descrição do Projeto
+##  Descrição do Projeto
 Este repositório contém a primeira versão navegável do site da **Vinheria Agnello**, desenvolvido como projeto acadêmico com **HTML5 e CSS3**.  
 O trabalho é inspirado no caso fictício **“O Caso da Vinheria Agnello”**, referência das disciplinas do 1º ano de Engenharia de Software.
 
@@ -12,22 +12,43 @@ Este site é um protótipo acadêmico que simula essa transição para o digital
 
 ---
 
-## 👨‍💻 Integrante
+##  Integrante
 - **Gabriel Ardito**
+- **João Sarracine**
 
 ---
 
 ## Site publicado
-Acesse o site no GitHub Pages: https://gabriel-ardito.github.io/Vinheria-Agnello/
+Acesse o site no GitHub Pages: https://1espa-gabriel-ardito.github.io/Vinharia-Agnello-CP2/
 
 ---
 
-## 📂 Estrutura de Diretórios
-<img src="src/assets/imgs/estrutura.png" alt="Estrutura Diretório" width="300">
+##  Estrutura de Diretórios
+```
+/
+├── index.html
+└── src/
+    ├── pages/
+    │   ├── contato.html           # Contato
+    │   ├── catalogo.html          # Tabela de Harmonização
+    │   ├── sobre.html             # Sobre Nós (história)
+    │   └── harmonia.html          # Tabela de Harmonização
+    │
+    ├── css/
+    │    ├── style.css
+    │    ├── catalogo.css
+    │    ├── contato.css
+    │    ├── harmonia.css
+    │    ├── sobre.css
+    │    └── efeitos.css        # Nosso foco desse CP, aprender a manipular as animações, efeitos e transições no CSS
+    ├── js/
+    │   └── script.js           # Atualmente vazio, porém aberto para melhoras e utilização no futuro
+    └── assets/
+        └── imgs/
+            ...
+```
 
----
-
-## 🧭 Menu de Navegação
+##  Menu de Navegação
 Todas as páginas compartilham o mesmo **menu superior** e o **rodapé**, garantindo consistência de navegação e identidade visual:
 - Início
 - Catálogo
@@ -37,7 +58,7 @@ Todas as páginas compartilham o mesmo **menu superior** e o **rodapé**, garant
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 O site é multipágina, leve e sem dependências de build. Basta abrir o arquivo `index.html` em qualquer navegador.  
 As páginas são:
 
@@ -60,7 +81,7 @@ Cada página possui seu próprio arquivo CSS em `src/css/`, todos utilizando a m
 
 ---
 
-## ⚙️ Como Executar Localmente
+##  Como Executar Localmente
 1. Clone ou baixe este repositório.  
    git clone <url-do-repositorio>
 2. Abra o arquivo `index.html` diretamente em seu navegador.  
@@ -69,7 +90,7 @@ Cada página possui seu próprio arquivo CSS em `src/css/`, todos utilizando a m
 
 ---
 
-## 🎨 Identidade Visual
+##  Identidade Visual
 A paleta de cores escolhida reforça a sofisticação do mundo do vinho:  
 - **#9a3f3f** – Vinho escuro (menu e rodapé)  
 - **#c1856d** – Tom médio (detalhes e botões)  
@@ -80,7 +101,7 @@ A tipografia utilizada é **Arial**, garantindo simplicidade e boa legibilidade.
 
 ---
 
-## 💻 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - **HTML5 semântico**: estrutura de páginas com tags modernas (`header`, `main`, `section`, `footer`, etc.).  
 - **CSS3 customizado**: estilização modular, com arquivos separados para cada página.  
 - **Flexbox**: utilizado para alinhar menus, imagens e seções.  
@@ -88,7 +109,7 @@ A tipografia utilizada é **Arial**, garantindo simplicidade e boa legibilidade.
 
 ---
 
-## 📌 Observações
+##  Observações
 - Este projeto é **estritamente acadêmico** e não possui funcionalidades dinâmicas ou integração real com banco de dados.  
 - Todos os dados de clientes e mensagens no formulário são apenas **exemplificativos**.  
 - O foco do trabalho foi aplicar boas práticas de **semântica HTML** e **estilização com CSS desacoplado**.  
