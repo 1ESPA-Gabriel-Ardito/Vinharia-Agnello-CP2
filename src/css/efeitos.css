@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-  
 }
 
 header .menu nav a:hover {
@@ -48,6 +47,18 @@ main img:hover {
     border-radius: 10px;
 }
 
+.Vinho {
+    width: 200px;
+    height: 300px;
+    transition: all 1s; 
+}
+
+.Vinho:hover {
+    width: 210px;
+    height: 320px;
+}
+
+
 main::before {
     content: "";
     display: block;
@@ -61,39 +72,28 @@ main::after{
     content: "";
     display: block;
     height: 8px; 
-    background-color: #9a3f3f; 
+    background-color: #f3e8c9; 
     border-radius: 0px 0px 8px 8px; 
-    margin-bottom: 20px; 
+    margin-top: 23px; 
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;      
+  0% {
+    opacity: 0;     
     transform: translateY(20px); 
   }
-  to {
+  100% {
     opacity: 1;     
     transform: translateY(0);   
   }
 }
 
+
+
 main img {
     opacity: 0; 
     animation: fadeIn 1.2s ease-in-out forwards; 
 }
-
-
-
-/* @keyframes fadeInTable {
-  from {
-    opacity: 0;             
-    transform: translateY(20px); 
-  }
-  to {
-    opacity: 1;              
-    transform: translateY(0);    
-  }
-}*/
 
 input:focus, textarea:focus {
     border: 2px solid #9a3f3f;      
@@ -106,7 +106,6 @@ button:hover {
     color: #fff;                
     transform: scale(1.05);    
     transition: all 0.3s ease-in-out;
-          
 }
 
 main p::first-letter {
@@ -136,4 +135,10 @@ main tr td:hover {
 .avaliacao:hover{
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
+    font-size: 15px;
+}
+
+@keyframes teste {
+    0% {font-size: 10px;}
+    100% {font-size: 24px;}
 }

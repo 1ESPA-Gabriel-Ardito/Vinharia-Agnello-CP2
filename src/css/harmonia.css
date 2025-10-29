@@ -37,7 +37,7 @@ header section {
 main {
     max-width: 1000px;
     margin: 30px auto;
-    background-color: #e6cfa9;
+    background-image: linear-gradient(#e6cfa9, #e6cfa9, #9a3f3f);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -55,12 +55,16 @@ main h2 {
 }
 
 .lista {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 8px;
     text-align: left;
-    padding: 10px;
+    padding: 2px;
 }
 
-.lista ul {
+ul li a {
+    text-decoration: none;
+    color: inherit;
     margin: 10px 0 20px 20px;
 }
 
@@ -70,13 +74,13 @@ table {
 }
 
 th, td {
-    border: 2px solid #c1856d;
+    border: 2px solid #e4b7a6;
     padding: 10px;
     text-align: center;
 }
 
 th {
-    background-color: #c1856d;
+    background-color: #ebaa90;
     color: #000;
 }
 #rodape {

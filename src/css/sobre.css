@@ -37,7 +37,7 @@ header section {
 main {
     max-width: 1000px;
     margin: 30px auto;
-    background-color: #e6cfa9;
+    background-image: linear-gradient(#e6cfa9, #e6cfa9, #9a3f3f);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -52,11 +52,14 @@ main img {
 main h2 {
     margin: 20px 0 10px 0;
     color: #000;
+    animation-duration: 3s;
+    animation-name: teste;
 }
 
 main p {
     margin-bottom: 15px;
     text-align: justify;
+    font-weight: bold;
 }
 
 iframe {
